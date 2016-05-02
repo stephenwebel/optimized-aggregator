@@ -1,3 +1,5 @@
+package MultipleFileTest;
+
 import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.BinaryOperator;
@@ -8,14 +10,14 @@ import java.util.stream.Collector;
 /**
  * Created by stephenwebel1 on 4/28/16.
  */
-//public class CollectorImplParC implements Collector<Position, long[], Long> {
+//public class MultipleFileTest.CollectorImplParC implements Collector<MultipleFileTest.Position, long[], Long> {
 //    private final Supplier<long[]> supplier;
-//    private final BiConsumer<long[], Position> accumulator;
+//    private final BiConsumer<long[], MultipleFileTest.Position> accumulator;
 //    private final BinaryOperator<long[]> combiner;
 //    private final Function<long[], Long> finisher;
 //    private final Set<Characteristics> characteristics;
 //
-//    CollectorImplParC(Supplier<long[]> supplier, BiConsumer<long[], Position> accumulator,
+//    MultipleFileTest.CollectorImplParC(Supplier<long[]> supplier, BiConsumer<long[], MultipleFileTest.Position> accumulator,
 //                      BinaryOperator<long[]> combiner, Function<long[], Long> finisher,
 //                      Set<Characteristics> characteristics) {
 //        this.supplier = supplier;
@@ -26,7 +28,7 @@ import java.util.stream.Collector;
 //    }
 //
 //    @Override
-//    public BiConsumer<long[], Position> accumulator() {
+//    public BiConsumer<long[], MultipleFileTest.Position> accumulator() {
 //        return accumulator;
 //    }
 //

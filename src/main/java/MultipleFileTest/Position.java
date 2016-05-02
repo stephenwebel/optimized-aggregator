@@ -1,3 +1,5 @@
+package MultipleFileTest;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -23,7 +25,7 @@ public class Position {
 
     @Override
     public String toString() {
-        return "Position [_entity=" + _entity + ", _qty=" + _qty + "]";
+        return "MultipleFileTest.Position [_entity=" + _entity + ", _qty=" + _qty + "]";
     }
 
 }
