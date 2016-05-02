@@ -54,7 +54,6 @@ public class TestPerformance {
         sw.start("Aggregate positions");
 //        Map<String,Long> aggr = aggregatePositions(positionList,(p)->p.getEntity());
 
-//        Map<String, Long> aggr =
         aggregatePositionsAA_YC_AP_parallel_collector(positionArray, (p) -> p.getEntity(), positionList.size());
         sw.stop();
 

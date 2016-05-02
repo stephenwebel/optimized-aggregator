@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a093c939-6e39-4bd2-b8c2-50856c86748b" name="Default" comment="Package structure">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/CollectorImplParC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Position.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TestPerformance.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/CollectorImplParC.java" afterPath="$PROJECT_DIR$/src/main/java/MultipleFileTest/CollectorImplParC.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Position.java" afterPath="$PROJECT_DIR$/src/main/java/MultipleFileTest/Position.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/TestPerformance.java" afterPath="$PROJECT_DIR$/src/main/java/MultipleFileTest/TestPerformance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SingleFileTest/SingleFileTest$Position.class" afterPath="$PROJECT_DIR$/target/classes/SingleFileTest/SingleFileTest$Position.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SingleFileTest/SingleFileTest.class" afterPath="$PROJECT_DIR$/target/classes/SingleFileTest/SingleFileTest.class" />
+    <list default="true" id="a093c939-6e39-4bd2-b8c2-50856c86748b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/SingleFileTest/SingleFileTest.java" afterPath="$PROJECT_DIR$/src/main/java/SingleFileTest/SingleFileTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MultipleFileTest/TestPerformance.java" afterPath="$PROJECT_DIR$/src/main/java/MultipleFileTest/TestPerformance.java" />
     </list>
     <ignored path="OptimizedAggregator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +30,8 @@
       <file leaf-file-name="TestPerformance.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MultipleFileTest/TestPerformance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+            <state relative-caret-position="195">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -923,7 +915,7 @@
       <option name="presentableId" value="Default" />
       <updated>1461804392912</updated>
       <workItem from="1461804397377" duration="13389000" />
-      <workItem from="1462146424690" duration="7653000" />
+      <workItem from="1462146424690" duration="7891000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ Commit">
       <created>1462152181732</created>
@@ -932,15 +924,22 @@
       <option name="project" value="LOCAL" />
       <updated>1462152181732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Package structure">
+      <created>1462157906112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1462157906112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21042000" />
+    <option name="totallyTimeSpent" value="21280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1400" height="833" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -955,7 +954,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1160,8 +1159,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MultipleFileTest/TestPerformance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+        <state relative-caret-position="195">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
