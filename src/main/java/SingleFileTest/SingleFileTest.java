@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
  */
 public class SingleFileTest {
 
-    public static final int TRIALS = 10;
+    public static final int TRIALS = 1;
     private static final List<Long> aggregateTime = new ArrayList<>();
     private static final List<Long> positionCreateTime = new ArrayList<>();
 

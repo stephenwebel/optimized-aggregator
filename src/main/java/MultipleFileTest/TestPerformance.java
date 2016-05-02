@@ -13,9 +13,9 @@ import java.util.stream.Collectors;
  */
 public class TestPerformance {
 
-    public static final int TRIALS = 100;
-//    private static final List<Long> aggregateTime = new ArrayList<>();
-//    private static final List<Long> positionCreateTime = new ArrayList<>();
+    public static final int TRIALS = 1;
+    private static final List<Long> aggregateTime = new ArrayList<>();
+    private static final List<Long> positionCreateTime = new ArrayList<>();
 
     public static void main(String args[]) {
         try {
@@ -51,10 +51,18 @@ public class TestPerformance {
         sw.stop();
 //        positionCreateTime.add(sw.getLastTaskTimeMillis());
 
-        sw.start("Aggregate positions");
+        sw.start("Best Aggregate positions");
 //        Map<String,Long> aggr = aggregatePositions(positionList,(p)->p.getEntity());
 
         aggregatePositionsAA_YC_AP_parallel_collector(positionArray, (p) -> p.getEntity(), positionList.size());
+        sw.stop();
+
+        System.gc();
+        System.gc();
+
+        sw.start("Original Aggregate positions");
+        aggregatePositions(positionList,(p)->p.getEntity());
+
         sw.stop();
 
 //        aggregateTime.add(sw.getLastTaskTimeMillis());
@@ -78,15 +86,6 @@ public class TestPerformance {
                 a -> a[0],
                 Collections.emptySet());
     }
-//
-//    public static Collector<MultipleFileTest.Position, long[], Long> summingLongCustom(ToLongFunction<MultipleFileTest.Position> mapper) {
-//        return new MultipleFileTest.CollectorImplParC(() -> new long[1], (a, t) -> {
-//            a[0] += mapper.applyAsLong(t);
-//        }, (a, b) -> {
-//            a[0] += b[0];
-//            return a;
-//        }, a -> a[0], Collections.emptySet());
-//    }
 
     public static Map<String, Long> aggregatePositions(List<Position> positionList_, Function<Position, String> groupBy_) {
         Map<String, Long> aggrResults = new HashMap<String, Long>(Position.ENTITIES.length);
